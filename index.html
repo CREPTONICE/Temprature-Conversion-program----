@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="Temp.png" type="image/x-icon" />
+    <script src="app.js" defer></script>
+    <title>Temprature Conversion</title>
+  </head>
+  <body>
+    <main>
+      <div class="box">
+        <h1 class="title">Temprature Conversion</h1>
+        <input
+          type="text"
+          name="userInput"
+          id="userInput"
+          placeholder="Enter A Temprature"
+          max="3"
+          min="1"
+          required
+        />
+        <div class="to">
+          <input
+            class="radioCheck"
+            type="radio"
+            name="one"
+            id="celsiusToFahrenheit"
+          />
+          <label for="celsiusToFahrenheit">Convert ➡️ Fahrenheit</label>
+        </div>
+
+        <div class="to">
+          <input
+            class="radioCheck"
+            type="radio"
+            name="one"
+            id="fahrenheitToCelsius"
+          />
+          <label for="fahrenheitToCelsius">Convert ➡️ Celsius</label>
+        </div>
+
+        <button id="convert">Convert</button>
+        <h2 id="answer"></h2>
+      </div>
+    </main>
+  </body>
+</html>

@@ -130,9 +130,3 @@ label {
 #answer {
   margin: 1rem 0 0.5rem;
 }
-
-@media (max-width: 340px) {
-  .title {
-    font-size: 1.4rem;
-  }
-}

@@ -80,6 +80,7 @@ main {
   cursor: pointer;
   height: 0;
   transition: 0.3s ease-in-out;
+  position: relative;
 }
 
 .radioCheck:hover {
@@ -87,6 +88,7 @@ main {
 }
 
 .radioCheck::before {
+  position: relative;
   content: "⭕";
   width: 10px;
   height: 10px;
